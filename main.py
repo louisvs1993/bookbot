@@ -2,8 +2,6 @@ from stats import *
 import sys
 
 def main():
-    #count_words(get_book_text("books/frankenstein.txt"))
-    #number_of_each_character(get_book_text("books/frankenstein.txt"))
     if len(sys.argv) != 2:
         print("Usage: python3 main.py <path_to_book>")
         sys.exit(1)
